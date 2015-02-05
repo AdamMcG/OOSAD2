@@ -7,6 +7,12 @@ public class CartItem {
 		throw new UnsupportedOperationException();
 	}
 
+	public CartItem(int id, int price, String name) {
+		this.id = id;
+		this.price = price;
+		this.name = name;
+	}
+
 	public int getItemID() {
 		return this.itemID;
 	}
