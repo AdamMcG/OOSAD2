@@ -7,4 +7,39 @@ public class CartItem {
 		throw new UnsupportedOperationException();
 	}
 
+	public int getItemID() {
+		return this.itemID;
+	}
+
+	/**
+	 * 
+	 * @param itemID
+	 */
+	public void setItemID(int itemID) {
+		this.itemID = itemID;
+	}
+
+	public double getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+	
+	private int itemID;
+	private double price = 0;
+	private String name = "test";
+	
+
 }
