@@ -1,4 +1,4 @@
-package Week3.Test;
+package labAssignment.Test;
 
 public class Qualification {
 
@@ -25,4 +25,5 @@ public class Qualification {
 		// TODO - implement Qualification.Qualification
 		throw new UnsupportedOperationException();
 	}
+
 }

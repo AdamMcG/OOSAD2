@@ -1,4 +1,4 @@
-package Week3.Test;
+package labAssignment.Test;
 
 public class Degree extends Qualification {
 
@@ -25,4 +25,5 @@ public class Degree extends Qualification {
 		// TODO - implement Degree.Degree
 		throw new UnsupportedOperationException();
 	}
+
 }

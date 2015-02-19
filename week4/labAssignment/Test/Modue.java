@@ -1,4 +1,4 @@
-package Week3.Test;
+package labAssignment.Test;
 
 public class Modue {
 
@@ -25,4 +25,5 @@ public class Modue {
 		// TODO - implement Modue.Modue
 		throw new UnsupportedOperationException();
 	}
+
 }

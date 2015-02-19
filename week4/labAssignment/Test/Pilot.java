@@ -1,15 +1,15 @@
-package Week3.Test;
+package labAssignment.Test;
 
 import java.util.*;
 
 public class Pilot extends Professional {
 
 	private String aircraft;
-	protected Collection<Rating> scoresA;
 	/**
 	 *                                                                                                                                                                                                
 	 */
 	private String company;
+	protected Collection<Rating> scoresA;
 
 	public String getAircraft() {
 		return this.aircraft;
@@ -27,8 +27,10 @@ public class Pilot extends Professional {
 		this.company = company;
 	}
 
-	public Pilot() {
-	setAircraft("Boeing 746");
-	setCompany("rocheyy's");
+	public Pilot(String air, String company) {
+		super(getName(),getAge(),getSalary());
+		aircraft = air;
+		this.company = company;
 	}
+
 }

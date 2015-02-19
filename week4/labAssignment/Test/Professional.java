@@ -1,4 +1,4 @@
-package Week3.Test;
+package labAssignment.Test;
 
 public class Professional {
 
@@ -30,9 +30,10 @@ public class Professional {
 		this.salary = salary;
 	}
 
-	public Professional() {
-		// TODO - implement Professional.Professional
-		throw new UnsupportedOperationException();
+	public Professional(String name, int age, int salary) {
+		this.salary = salary;
+		this.age = age;
+		this.name = name;
 	}
 
 }

@@ -1,4 +1,4 @@
-package Week3.Test;
+package labAssignment.Test;
 
 public class Rating extends Qualification {
 
@@ -25,4 +25,5 @@ public class Rating extends Qualification {
 		// TODO - implement Rating.Rating
 		throw new UnsupportedOperationException();
 	}
+
 }
