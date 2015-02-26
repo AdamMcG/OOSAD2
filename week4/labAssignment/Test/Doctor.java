@@ -23,8 +23,8 @@ public class Doctor extends Professional {
 	}
 
 	public Doctor() {
-		// TODO - implement Doctor.Doctor
-		throw new UnsupportedOperationException();
+	hospitalResidence = "ST. James";
+	department = "ICU";
 	}
 
 }

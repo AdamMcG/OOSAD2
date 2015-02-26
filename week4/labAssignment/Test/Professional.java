@@ -30,10 +30,10 @@ public class Professional {
 		this.salary = salary;
 	}
 
-	public Professional(String name, int age, int salary) {
-		this.salary = salary;
-		this.age = age;
-		this.name = name;
+	public Professional(){
+		this.salary = 123222;
+		this.age = 27;
+		Name = "Joe McGrath";
 	}
 
 }

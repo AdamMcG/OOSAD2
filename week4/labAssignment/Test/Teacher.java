@@ -17,8 +17,7 @@ public class Teacher extends Professional {
 	}
 
 	public Teacher() {
-		// TODO - implement Teacher.Teacher
-		throw new UnsupportedOperationException();
+		position = "yearhead";
 	}
 
 }

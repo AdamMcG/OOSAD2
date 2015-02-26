@@ -22,8 +22,8 @@ public class Qualification {
 	}
 
 	public Qualification() {
-		// TODO - implement Qualification.Qualification
-		throw new UnsupportedOperationException();
+	institution = "ITT Tallaght";
+	cost = 123300;
 	}
 
 }

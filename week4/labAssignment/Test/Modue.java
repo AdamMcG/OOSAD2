@@ -22,8 +22,8 @@ public class Modue {
 	}
 
 	public Modue() {
-		// TODO - implement Modue.Modue
-		throw new UnsupportedOperationException();
+		moduleTitle = "sample modules";
+		timeSlot = "2.00p.m.";
 	}
 
 }

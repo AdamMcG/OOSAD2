@@ -27,10 +27,10 @@ public class Pilot extends Professional {
 		this.company = company;
 	}
 
-	public Pilot(String air, String company) {
-		super(getName(),getAge(),getSalary());
-		aircraft = air;
-		this.company = company;
+	public Pilot()
+	{
+	 aircraft = "A big plane";
+	 company = "Aerlingus";
 	}
 
 }

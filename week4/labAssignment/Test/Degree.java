@@ -22,8 +22,8 @@ public class Degree extends Qualification {
 	}
 
 	public Degree() {
-		// TODO - implement Degree.Degree
-		throw new UnsupportedOperationException();
+		level = 8;
+		department = "computing";
 	}
 
 }

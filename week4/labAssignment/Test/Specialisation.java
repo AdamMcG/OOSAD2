@@ -13,8 +13,7 @@ public class Specialisation extends Qualification {
 	}
 
 	public Specialisation() {
-		// TODO - implement Specialisation.Specialisation
-		throw new UnsupportedOperationException();
+		specialisationArea = "Pediatrics";
 	}
 
 }

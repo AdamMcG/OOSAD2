@@ -22,8 +22,8 @@ public class Rating extends Qualification {
 	}
 
 	public Rating() {
-		// TODO - implement Rating.Rating
-		throw new UnsupportedOperationException();
+		String AircraftType = "Boeing 747";
+		country = "Yemen";
 	}
 
 }
