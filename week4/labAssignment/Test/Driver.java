@@ -11,7 +11,7 @@ public class Driver {
 
 		Pilot p = new Pilot();	
 			p.setName("Adam");
-			System.out.println(p.getName() +" I am a pilot that flies a: " + p.getAircraft() + " in the company: " + 						p.getCompany());
+			System.out.println(" I am a pilot that flies a: " + p.getAircraft() + " in the company: " + 						p.getCompany());
 			
 
 		Modue b = new Modue();
@@ -20,8 +20,8 @@ public class Driver {
 		pa.setName("Paddy Barnes");
 		pilotArrayList.add(p);
 		pilotArrayList.add(pa);
-		System.out.println(pilotArrayList.get(0).getName());
-		System.out.println(pilotArrayList.get(1).getName());		
+		System.out.println("I am pilot number 1:" +pilotArrayList.get(0).getName());
+		System.out.println("I am pilot number 2:" +pilotArrayList.get(1).getName());		
 		Teacher a = new Teacher();
 		a.setPosition("Head Teacher.");
 		System.out.println("This is my position: " + a.getPosition());
