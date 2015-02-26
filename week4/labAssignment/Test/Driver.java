@@ -16,8 +16,12 @@ public class Driver {
 
 		Modue b = new Modue();
 		ArrayList<Pilot> pilotArrayList = new ArrayList<Pilot>();
+		Pilot pa = new Pilot();
+		pa.setName("Paddy Barnes");
 		pilotArrayList.add(p);
+		pilotArrayList.add(pa);
 		System.out.println(pilotArrayList.get(0).getName());
+		System.out.println(pilotArrayList.get(1).getName());		
 		Teacher a = new Teacher();
 		a.setPosition("Head Teacher.");
 		System.out.println("This is my position: " + a.getPosition());
