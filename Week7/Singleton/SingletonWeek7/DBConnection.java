@@ -6,7 +6,8 @@ public class DBConnection {
 	private int test = 123;	
 
 
-	private DBConnection() {}
+	private DBConnection() {
+	System.out.println("Creating instance...");}
 
 	public static DBConnection getInstance(int i) {	
 	if (instance == null) {

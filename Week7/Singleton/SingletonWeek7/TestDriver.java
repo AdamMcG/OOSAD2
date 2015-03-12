@@ -7,6 +7,5 @@ public class TestDriver {
 	DBConnection test = DBConnection.getInstance(i);	
 	System.out.println(test.toString());	
 	}
-	System.out.println("Darn");
 	}
 }
