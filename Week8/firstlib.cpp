@@ -24,11 +24,11 @@ void weatherForecast(int ndays)
   {
    cout<< "on day " << i<<" The weather will be: \n"<<endl;
    if(i == 1)
-   cout<< "High in degrees C(<10) and no rainfall, windspeed of 23 and direction of northwest\n"<<endl;
+   cout<< "High in degrees C(<10) and no rainfall, \nwindspeed of 23 \ndirection of northwest\n"<<endl;
    else if(i ==2)
-   cout<<"Low in degrees c(>10) and high rainfall, windspeed of 32 and direction of south\n"<<endl;
+   cout<<"Low in degrees c(>10) and high rainfall,\n windspeed of 32 \ndirection of south\n"<<endl;
    else
-	cout<<"Mid level degrees c(10) and no rainfall, windspeed of 10 and direction of north\n"<<endl; 
+	cout<<"Mid level degrees c(10) and no rainfall, \nwindspeed of 10 \ndirection of north\n"<<endl; 
    }
  }
 }
