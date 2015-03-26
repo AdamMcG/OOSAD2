@@ -5,6 +5,7 @@
 * ./main
 */
 #include <iostream>
+#include <string>
 #include "firstlib.h"
 using namespace std;
 void printGreeting()
@@ -14,7 +15,7 @@ cout << "Welcome to C++ Library Programming" << endl;
 
 void weatherForecast(int ndays)
 {
- if(ndays > 3 || ndays <= 0)
+ if(ndays > 3 || ndays < 0)
  {
   cout<< "Sorry, incompatitible amount of days"<<endl;
  }
@@ -33,5 +34,9 @@ void weatherForecast(int ndays)
  }
 }
 
-void getMyLocation(string ref)
-{cout<< "\n Your location is: "<< ref<<endl;}
+void getMyLocation(string& ref)
+{
+ ref = "Dublin, Ireland";
+}
+
+

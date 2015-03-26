@@ -6,4 +6,5 @@
 using namespace std;
 void printGreeting();
 void weatherForecast(int ndays);
-void getMyLocation(string ref);
+void getMyLocation(string& ref);
+
