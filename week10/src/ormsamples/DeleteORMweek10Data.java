@@ -9,7 +9,7 @@ public class DeleteORMweek10Data {
 	public void deleteTestData() throws PersistentException {
 		PersistentTransaction t = ormtest.ORMweek10PersistentManager.instance().getSession().beginTransaction();
 		try {
-			ormtest.Employee lormtestEmployee = ormtest.Employee.loadEmployeeByQuery(null, null);
+			ormtest.Employee lormtestEmployee = ormtest.Employee.loadEmployeeByQuery("id = 107", null);
 			lormtestEmployee.delete();
 			t.commit();
 		}

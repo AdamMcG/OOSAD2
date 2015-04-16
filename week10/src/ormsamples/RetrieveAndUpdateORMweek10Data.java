@@ -9,7 +9,9 @@ public class RetrieveAndUpdateORMweek10Data {
 	public void retrieveAndUpdateTestData() throws PersistentException {
 		PersistentTransaction t = ormtest.ORMweek10PersistentManager.instance().getSession().beginTransaction();
 		try {
-			ormtest.Employee lormtestEmployee = ormtest.Employee.loadEmployeeByQuery(null, null);
+			ormtest.Employee lormtestEmployee = ormtest.Employee.loadEmployeeByQuery("id = 107", null);
+			lormtestEmployee.setName("Mr T. Ower");
+			lormtestEmployee.setMobile("0012");			
 			// Update the properties of the persistent object
 			lormtestEmployee.save();
 			t.commit();
